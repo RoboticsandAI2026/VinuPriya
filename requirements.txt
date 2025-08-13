@@ -1,0 +1,10 @@
+streamlit==1.35.0
+numpy
+pandas
+Pillow
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.4.0
+# Add others only if used:
+# torchvision==0.19.0
+# torchaudio==2.4.0
