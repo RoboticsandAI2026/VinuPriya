@@ -455,7 +455,7 @@ def main():
         st.header("🛠️ Model Setup")
         model_path = st.text_input(
             "Model Path", 
-            value=r"C:\Users\alsto\Desktop\gen ai\gen ai project-20250421T045900Z-002\gen ai project\final_interior_model_20250416_103011.pth",
+            value=r"https://drive.google.com/file/d/17bLp9_JDXsDmFUrfIARFiyq5dxpLw72h/view?usp=sharing",
             help="Path to your trained model file (.pth)",
             key="model_path_input"
         )
@@ -722,3 +722,4 @@ except (ImportError, AttributeError):
 # Run the app
 if __name__ == "__main__":
     main()
+
